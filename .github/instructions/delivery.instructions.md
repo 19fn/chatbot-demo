@@ -15,7 +15,8 @@ When copying this file to another repository, update every value in this section
 
 ## Branches
 - Use the default pull request base from Repository Identity unless the issue explicitly targets another branch.
-- Prefer creating the issue branch after Fast confirms the work and before Engineer edits code.
+- Engineer owns branch preparation. After Fast confirms the work, Engineer must create and verify the issue branch before making code or documentation changes.
+- Fast may inspect and report branch state but must not create, switch, update, delete, or rename branches.
 - Use `<type>/<issue-number>-<short-kebab-summary>` when an issue number exists, for example `fix/123-chat-http-400`.
 - Use `<type>/<short-kebab-summary>` when no issue exists.
 - Allowed types are `fix`, `feature`, `refactor`, `docs`, `test`, and `chore`.
